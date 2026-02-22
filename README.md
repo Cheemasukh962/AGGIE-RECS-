@@ -1,11 +1,8 @@
+# AGGIE-RECS-
 
-  # SacHack 2026V2
+SacHack 2026V2 code bundle. Original design: https://www.figma.com/design/YhC7t2VutmjNwCPJG4jxXv/SacHack-2026V2.
 
-  This is a code bundle for SacHack 2026V2. The original project is available at https://www.figma.com/design/YhC7t2VutmjNwCPJG4jxXv/SacHack-2026V2.
+## Running the code
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+- Install deps: `npm i`
+- Start dev server: `npm run dev`
