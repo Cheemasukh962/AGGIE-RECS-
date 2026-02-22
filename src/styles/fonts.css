@@ -1,0 +1,23 @@
+/* ASUCD Pantry 2025 Branding Fonts */
+
+/* Zing Script Rust - Premium Font */
+/* To use the actual Zing Script Rust font, purchase it and add the font files to /public/fonts/ */
+/* Then uncomment and update the following @font-face declaration: */
+/*
+@font-face {
+  font-family: 'Zing Script Rust';
+  src: url('/fonts/ZingScriptRust-Base.woff2') format('woff2'),
+       url('/fonts/ZingScriptRust-Base.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+/* Body Font - Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+/* Header Font Placeholder - Yellowtail (similar to Zing Script Rust) */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/* Note: Once Zing Script Rust is purchased and added, update --font-header in theme.css */

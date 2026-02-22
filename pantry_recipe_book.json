@@ -1,0 +1,575 @@
+{
+  "pantry_recipe_book": {
+    "sections": [
+      {
+        "item": "Ready Pasta (Elbows)",
+        "in_season": "All year round",
+        "flavor_profile": "Fully cooked pasta",
+        "how_to_use": "Microwave for 60 seconds and it is ready as regular pasta",
+        "nutrition": "9% of sodium, 42g of protein of Carbohydrate, 8% of Dietary Fiber",
+        "storage": "Sealed in packages or bags",
+        "recipes": [
+          {
+            "name": "Ready Pasta (Elbows) Cobb Salad",
+            "ready_in": "16 minutes",
+            "serves": 2,
+            "calories": 800,
+            "ingredients": [
+              "1 pouch Barilla Ready Pasta Elbows",
+              "2 slices bacon, crispy and cut in strips",
+              "1 cup iceberg salad, shredded",
+              "1 hard-boiled eggs, chopped",
+              "1-4 oz grilled chicken breast sliced",
+              "2 ripe plum tomatoes, diced",
+              "½ avocado, diced",
+              "3 green onions, chopped",
+              "¼ cup blue cheese, crumbled",
+              "4 oz Ranch style dressing"
+            ],
+            "preparation": [
+              "Tear corner of Ready Pasta pouch to vent, heat in microwave for one minute.",
+              "Pour on a plate and let cool down.",
+              "Toss pasta with all ingredients together in individual-sized serving bowls."
+            ],
+            "tips": "For a vegan/vegetarian alternative, replace meat with non-meat protein alternatives (chickpeas, black beans, soy “meat,” tempeh)"
+          },
+          {
+            "name": "Super Quick Elbows with Tomato Basil Sauce and Cheese",
+            "ready_in": "5 minutes",
+            "serves": 2,
+            "calories": 800,
+            "ingredients": [
+              "1 pouch Barilla Ready Pasta Elbows",
+              "1 cup of Barilla Tomato & Basil Sauce",
+              "2 leaves of basil, julienned",
+              "2 tbsp Parmigiano-Reggiano cheese, grated"
+            ],
+            "preparation": [
+              "Tear corner of Ready Pasta pouch to vent, heat for 60 seconds in the microwave.",
+              "Warm sauce and basil in a bowl for 2 minutes in the microwave.",
+              "Combine pasta with sauce and top with cheese."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Canned Sweet Corn",
+        "in_season": "All year round",
+        "flavor_profile": "Sweet, crisp, and tender",
+        "how_to_use": "Sprinkle on salads, bake into cornbread, stir into soups, or blend into sauces",
+        "nutrition": "Contains 12 mg of Calcium; 392 mg of Potassium",
+        "storage": "Sealed in a mason jar or container with a lid",
+        "recipes": [
+          {
+            "name": "Esquite",
+            "ready_in": "7 minutes",
+            "ingredients": [
+              "1 can of sweet corn",
+              "1 tbsp butter",
+              "Salt to taste",
+              "⅓ cup of Parmesan cheese or Cotija",
+              "Chile powder or Hot Cheetos powder",
+              "2 tbsp mayonnaise"
+            ],
+            "preparation": [
+              "Add butter to a frying pan.",
+              "Add corn kernels and cook for 5 minutes over medium heat.",
+              "Serve in cups topped with cheese, mayonnaise, and chili powder."
+            ],
+            "tips": "Esquites can be eaten hot or cold, depending on preference."
+          }
+        ]
+      },
+      {
+        "item": "Canned Tuna",
+        "in_season": "All year round",
+        "flavor_profile": "Bland, hints of salt, can be moist and flaky",
+        "how_to_use": "On top of rice, tostadas, or crackers; tossed in salad or pasta",
+        "nutrition": "22g of protein; 2% calcium; 4% potassium; high iron",
+        "storage": "Sealed in Tupperware or in a Mason jar with a lid",
+        "recipes": [
+          {
+            "name": "Tuna Salad",
+            "ingredients": [
+              "1 canned tuna",
+              "2 medium sized tomatoes",
+              "¼ cup of cilantro",
+              "Sea salt",
+              "⅛ cup onion",
+              "¼ cup cucumber",
+              "1 lemon or lime",
+              "Optional: ¼ cup mayonnaise"
+            ],
+            "preparation": [
+              "Drain tuna and add to bowl.",
+              "Chop washed tomatoes, cucumber, and onion into cubes.",
+              "Roughly chop cilantro.",
+              "Mix all ingredients together with citrus juice and salt."
+            ]
+          },
+          {
+            "name": "Tuna Noodle Casserole",
+            "ingredients": [
+              "1 canned tuna",
+              "½ cup beans and legumes",
+              "Pasta noodles",
+              "4 cups spinach",
+              "¼ cup Alfredo sauce",
+              "Oil",
+              "Dash: basil, oregano"
+            ],
+            "preparation": [
+              "Preheat oven to 400°F.",
+              "Cook pasta according to package instructions.",
+              "Coat casserole dish with oil.",
+              "Combine all ingredients in the dish and bake."
+            ],
+            "tips": "Can include chopped celery, white onions, and other vegetables."
+          },
+          {
+            "name": "Tuna Melts on Pepper",
+            "ingredients": [
+              "1 canned tuna",
+              "1 green bell pepper",
+              "1 tbsp mayonnaise",
+              "⅓ cup mozzarella cheese",
+              "Dash: everything seasoning"
+            ],
+            "preparation": [
+              "Preheat oven to 425°F.",
+              "Slice peppers into quarters.",
+              "Mix tuna and mayonnaise.",
+              "Combine ingredients in casserole dish and bake for 10 minutes.",
+              "Top with cheese and bake for another 3 minutes."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Hot Pepper",
+        "in_season": "Summer, Fall (June-November)",
+        "flavor_profile": "Generally spicy; can be lemony or bitter",
+        "how_to_use": "Sauces, salsas, pickled, dried, or in chili poppers",
+        "nutrition": "High in Vitamin C, B6, and A",
+        "storage": "Refrigerate in a container",
+        "recipes": [
+          {
+            "name": "Spicy Rice Casserole",
+            "ingredients": [
+              "3 tbsp canola oil",
+              "4 eggs, beaten",
+              "½ tsp sesame oil",
+              "1 onion, chopped",
+              "1 tsp ginger, chopped",
+              "1 clove garlic, chopped",
+              "½ hot pepper, deseeded and chopped",
+              "2 bell peppers, chopped",
+              "1 lb broccoli, chopped",
+              "4 cups cooked rice",
+              "4 tbsp soy sauce",
+              "¼ cup oyster sauce"
+            ],
+            "preparation": [
+              "Scramble eggs in 1 tbsp oil; set aside.",
+              "Sauté onion, ginger, garlic, peppers, broccoli, and rice in remaining oil.",
+              "Cook until rice is crispy.",
+              "Add soy and oyster sauce mixture.",
+              "Mix eggs back in and serve."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Poblano Peppers",
+        "in_season": "Summer, Fall",
+        "flavor_profile": "Smoky taste, mildly spicy",
+        "how_to_use": "Deseed and slice for cooking or stuffing",
+        "nutrition": "Antioxidants, Dietary Fiber, Phosphorus",
+        "storage": "Refrigerate in a sealed bag; can freeze for 10-12 months",
+        "recipes": [
+          {
+            "name": "Chili Stuffed Poblano Peppers",
+            "ingredients": [
+              "1 lb ground turkey",
+              "1 can of chili",
+              "¼ tsp salt",
+              "1 ½ cups shredded Mexican cheese",
+              "1 medium tomato",
+              "4 green onions",
+              "4 poblano peppers",
+              "1 tsp olive oil"
+            ],
+            "preparation": [
+              "Preheat oven to 350°F.",
+              "Cook turkey; add chili, salt, cheese, tomatoes, and onions.",
+              "Roast oiled peppers for 5 minutes until skin blisters.",
+              "Stuff peppers with chili filling."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Turnips",
+        "in_season": "Winter",
+        "flavor_profile": "Young: carrot-like; Aged: potato-like; Old: bitter",
+        "how_to_use": "Sautéed, mashed, roasted, or raw",
+        "nutrition": "Vitamin A, C, and K",
+        "storage": "Store in dry, cool, dark environment without green tops",
+        "recipes": [
+          {
+            "name": "Leek, Turnip, and Rice Soup",
+            "ingredients": [
+              "2 tbsp olive oil",
+              "4 large leeks, sliced",
+              "1 lb turnips, diced",
+              "2 garlic cloves, minced",
+              "2 quarts vegetable stock",
+              "½ cup rice",
+              "2 tbsp fresh parsley",
+              "Salt, pepper, 1 bay leaf"
+            ],
+            "preparation": [
+              "Sauté leeks and turnips until tender.",
+              "Add garlic, stock, salt, bay leaf, and rice.",
+              "Simmer covered for 30 minutes."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Persimmon",
+        "in_season": "October-December",
+        "flavor_profile": "Sweet flavor similar to tomato when ripe",
+        "how_to_use": "Raw in salads, breads, or jams",
+        "nutrition": "Vitamin C, Potassium, Iron",
+        "storage": "Store at room temperature until ripe",
+        "recipes": [
+          {
+            "name": "Vegetable Hand Rolls (Temaki)",
+            "ingredients": [
+              "1 cup sushi rice",
+              "3 tbsp sushi seasoning",
+              "10 sheets nori",
+              "½ English cucumber",
+              "1 red bell pepper",
+              "6 oz preserved daikon",
+              "2 persimmons",
+              "2 avocados",
+              "Optional: Furikake"
+            ],
+            "preparation": [
+              "Cook rice and mix with seasoning.",
+              "Cut vegetables and persimmons into matchsticks.",
+              "Spread rice on nori, top with vegetables, and roll."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Eggplant",
+        "in_season": "Mid-summer to mid-fall",
+        "flavor_profile": "Bitter when raw; creamy and earthy when cooked",
+        "how_to_use": "Sliced, cubed, or halved for baking and curries",
+        "nutrition": "Manganese, Folate, Copper",
+        "storage": "Cool place or refrigerated in a perforated bag",
+        "recipes": [
+          {
+            "name": "Eggplant Curry",
+            "ingredients": [
+              "2 large eggplants",
+              "3 tbsp oil",
+              "1 bunch scallions",
+              "1 cup mushrooms",
+              "3 garlic cloves",
+              "1 fresh red chili",
+              "1 tsp chili powder",
+              "1 tbsp curry powder",
+              "14 oz chopped tomatoes",
+              "1 tbsp cilantro"
+            ],
+            "preparation": [
+              "Bake eggplants at 400°F for 30-35 minutes.",
+              "Sauté scallions, mushrooms, garlic, and chili.",
+              "Add spices and tomatoes; simmer.",
+              "Mash eggplant flesh and add to sauce; simmer 5 minutes."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Pomegranate",
+        "in_season": "Fall (September-November)",
+        "flavor_profile": "Juicy, astringent, and sour",
+        "how_to_use": "Remove arils for salads and fresh eating",
+        "nutrition": "Vitamin K, A, and B9 Folate",
+        "storage": "Cool room temperature for weeks; fridge for 2 months",
+        "recipes": [
+          {
+            "name": "Pear and Pomegranate Salad",
+            "ingredients": [
+              "¼ cup pomegranate seeds",
+              "1 pear, sliced",
+              "3 cups baby spinach",
+              "¼ cup feta cheese",
+              "¼ cup pecan halves",
+              "Vinaigrette: orange juice, olive oil, mustard, vinegar, poppyseeds, honey"
+            ],
+            "preparation": [
+              "Layer salad ingredients in a bowl.",
+              "Shake vinaigrette ingredients in a jar.",
+              "Drizzle and toss before serving."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Garlic",
+        "in_season": "Fall-Summer",
+        "flavor_profile": "Strong pungency when raw; rich when cooked",
+        "how_to_use": "Raw, fried, or roasted",
+        "nutrition": "Potassium, Calcium, Phosphorus",
+        "storage": "Dry, dark place for up to six months",
+        "recipes": [
+          {
+            "name": "Garlic Clove Spaghetti",
+            "ingredients": [
+              "1 lb whole-wheat spaghetti",
+              "2 pork loin blade chops",
+              "40 cloves garlic, peeled",
+              "¼ cup half and half",
+              "4 tbsp oil",
+              "2 tbsp butter",
+              "½ tsp red pepper flakes",
+              "2 green onions"
+            ],
+            "preparation": [
+              "Sauté garlic in oil for 40 minutes until caramelized.",
+              "Brown pork chops in the same pan.",
+              "Blend garlic with half and half to a hummus consistency.",
+              "Toss cooked pasta with butter, garlic mixture, and red pepper flakes."
+            ]
+          },
+          {
+            "name": "Orzo with Garlicky Spinach",
+            "ingredients": [
+              "¾ cup orzo",
+              "1 tbsp butter",
+              "4 cups spinach",
+              "2 tsp minced garlic",
+              "1 oz Parmesan",
+              "¼ cup chicken broth",
+              "1 tbsp balsamic vinegar"
+            ],
+            "preparation": [
+              "Cook orzo.",
+              "Sauté spinach and garlic in butter.",
+              "Stir in orzo, cheese, broth, and vinegar."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Tomatoes",
+        "in_season": "Summer (June-September)",
+        "flavor_profile": "Sweet, tart, tangy",
+        "how_to_use": "Fresh, sauces, soups, or roasted",
+        "nutrition": "Vitamin C, A, and Potassium",
+        "storage": "Refrigerate if ripe; room temperature if unripe",
+        "recipes": [
+          {
+            "name": "Roasted Tomato Avocado Toast",
+            "ingredients": [
+              "3 tomatoes",
+              "4 slices bread",
+              "2 avocados",
+              "1 lime, juiced",
+              "Parsley, Italian seasoning, olive oil, balsamic vinegar"
+            ],
+            "preparation": [
+              "Roast seasoned tomato slices at 375°F for 15-20 minutes.",
+              "Mash avocado with lime juice.",
+              "Spread on toast and top with roasted tomatoes and balsamic."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Radishes",
+        "in_season": "Fall-Winter",
+        "flavor_profile": "Sharp, spicy, and zesty when raw",
+        "how_to_use": "Raw, sautéed, or boiled",
+        "nutrition": "Vitamin E, C, and Folate",
+        "storage": "Sealed bag with damp paper towels in fridge",
+        "recipes": [
+          {
+            "name": "Corn Salad with Radishes, Jalapeno, and Lime",
+            "ingredients": [
+              "1.5 cans corn",
+              "6 radishes",
+              "½ jalapeno",
+              "3 tbsp lime juice",
+              "2 tbsp cilantro",
+              "1.5 tbsp olive oil"
+            ],
+            "preparation": [
+              "Chop radishes, jalapeno, and cilantro.",
+              "Combine all ingredients and season with salt."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Winter Squash",
+        "in_season": "Fall-Winter",
+        "flavor_profile": "Sweet, nutty, and smooth",
+        "how_to_use": "Grill, broil, roast, or puree",
+        "nutrition": "Vitamin A, C, and Potassium",
+        "storage": "Cool, dark place",
+        "recipes": [
+          {
+            "name": "Butternut Squash Soup",
+            "ingredients": [
+              "2 tbsp butter",
+              "1 onion",
+              "1 butternut squash",
+              "1 carrot",
+              "1 celery stalk",
+              "2 potatoes",
+              "23 oz broth"
+            ],
+            "preparation": [
+              "Sauté onion; add chopped vegetables and broth.",
+              "Simmer for 40 minutes.",
+              "Puree until smooth."
+            ]
+          },
+          {
+            "name": "Butternut Squash Basmati Rice",
+            "ingredients": [
+              "1 tbsp butter",
+              "1 tsp cumin seeds",
+              "1 tsp mustard seeds",
+              "1 cup basmati rice",
+              "2 cups water",
+              "¾ lb butternut squash, cubed"
+            ],
+            "preparation": [
+              "Toast seeds in butter.",
+              "Add rice and squash; stir to coat.",
+              "Add water and simmer for 15 minutes."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Sweet Potato",
+        "in_season": "Fall-Early Winter",
+        "flavor_profile": "Sweet when cooked; fresh when raw",
+        "how_to_use": "Boiled, roasted, baked, or fried",
+        "nutrition": "Vitamin A, B6, and Potassium",
+        "storage": "Dark, cool, dry place (do not refrigerate)",
+        "recipes": [
+          {
+            "name": "Chicken, Sweet Potato, and Black Bean Skillet",
+            "ingredients": [
+              "1 sweet potato",
+              "1 cup cherry tomatoes",
+              "½ cup onion",
+              "½ cup green chilis",
+              "1 lb chicken breast",
+              "1 can black beans",
+              "⅓ cup salsa",
+              "½ cup cheese"
+            ],
+            "preparation": [
+              "Sauté chicken and onion with spices.",
+              "Add sweet potato, tomatoes, beans, and salsa.",
+              "Cook 2-3 minutes, top with cheese and melt."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Lima Beans",
+        "in_season": "All year round",
+        "flavor_profile": "Buttery flavor and creamy texture",
+        "how_to_use": "Soak dried beans for 6-8 hours",
+        "nutrition": "Fiber, Phosphorus, Protein",
+        "storage": "Airtight container in cool, dark place",
+        "recipes": [
+          {
+            "name": "Lima Bean Soup",
+            "ingredients": [
+              "3 cans chicken broth",
+              "2 cans lima beans",
+              "3 carrots",
+              "2 potatoes",
+              "2 onions",
+              "2 red peppers",
+              "1 cup half and half"
+            ],
+            "preparation": [
+              "Combine broth, beans, and vegetables; simmer 25-35 minutes.",
+              "Stir in cream and heat through."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Okra",
+        "in_season": "Summer-Fall",
+        "flavor_profile": "Mild taste similar to eggplant",
+        "how_to_use": "Steam or boil; do not cut seed pods before cooking",
+        "nutrition": "Vitamin A, C, and Magnesium",
+        "storage": "Refrigerate in a plastic bag; use within 2-3 days",
+        "recipes": [
+          {
+            "name": "Okra and Chickpeas in Fresh Tomato Sauce",
+            "ingredients": [
+              "2 tbsp olive oil",
+              "1 yellow onion",
+              "2 garlic cloves",
+              "5 tomatoes",
+              "1 tbsp cumin",
+              "1 lb fresh okra",
+              "1 can chickpeas",
+              "Parsley"
+            ],
+            "preparation": [
+              "Sauté onion and garlic.",
+              "Add tomatoes and spices; cook until broken down.",
+              "Add okra and simmer 10 minutes.",
+              "Mix in chickpeas and parsley."
+            ]
+          }
+        ]
+      },
+      {
+        "item": "Collard Greens",
+        "in_season": "Winter-Spring",
+        "flavor_profile": "Strong and earthy",
+        "how_to_use": "Sautéed or cooked in soups",
+        "storage": "Sealed plastic bags in refrigerator crisper for 3-4 days",
+        "recipes": [
+          {
+            "name": "Sauteed Collard Greens with Mushrooms",
+            "ingredients": [
+              "2 tbsp cooking oil",
+              "2 bunches collard greens",
+              "Baby bella mushrooms",
+              "1 can diced tomatoes",
+              "Cooked white rice",
+              "Garlic",
+              "Spices: garlic powder, onion powder, paprika, cayenne"
+            ],
+            "preparation": [
+              "Sauté mushrooms and garlic until brown.",
+              "Add sliced collard greens and spices; cook covered 3 minutes.",
+              "Add tomatoes and rice; cook 3-5 minutes more."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
