@@ -670,20 +670,66 @@ type PantryBookJson = {
   };
 };
 
-const IMAGE_POOL = [
-  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80&sat=-50',
-  'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80&hue=20',
-  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80&blur=0.2',
-  'https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?w=800&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&auto=format&fit=crop&q=80'
+const SAFE_IMAGE_BASES = [
+  'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // rice/beans bowl
+  'https://images.unsplash.com/photo-1478145046317-39f10e56b5e9', // curry bowl
+  'https://images.unsplash.com/photo-1473093295043-cdd812d0e601', // pasta
+  'https://images.unsplash.com/photo-1523986371872-9d3ba2e2f5ab', // salad
+  'https://images.unsplash.com/photo-1552332386-f8dd00dc2f85', // tacos/quesadilla
+  'https://images.unsplash.com/photo-1547592166-23ac45744acd', // soup
+  'https://images.unsplash.com/photo-1528735602780-2552fd46c7af', // sandwich
+  'https://images.unsplash.com/photo-1506089676908-3592f7389d4d', // egg dish
+  'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea', // oats
+  'https://images.unsplash.com/photo-1513104890138-7c749659a591', // pizza
+  'https://images.unsplash.com/photo-1490645935967-10de6ba17061', // hummus/mezze
+  'https://images.unsplash.com/photo-1518013431117-eb1465fa5752', // potato
+  'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe', // stew bowl
+  'https://images.unsplash.com/photo-1525755662778-989d0524087e', // pasta prep
+  'https://images.unsplash.com/photo-1481931098730-318b6f776db0', // soup bowl top-down
+  'https://images.unsplash.com/photo-1604908177520-4028ea5667db', // avocado toast
 ];
 
-const pickImageForTitle = (title: string) => {
-  const hash = title.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+const withImgParams = (base: string) => `${base}?w=900&auto=format&fit=crop&q=80&sat=-6`;
+
+const TITLE_IMAGE_MATCHERS: { pattern: RegExp; url: string }[] = [
+  { pattern: /(rice[^a-z]|rice\b).*bean|bean[^a-z]|beans\b|bowl|grain bowl/i, url: withImgParams(SAFE_IMAGE_BASES[0]) },
+  { pattern: /(curry|dal|lentil|chickpea)/i, url: withImgParams(SAFE_IMAGE_BASES[1]) },
+  { pattern: /(pasta|spaghetti|penne|mac|noodle|ramen)/i, url: withImgParams(SAFE_IMAGE_BASES[2]) },
+  { pattern: /(salad|greens)/i, url: withImgParams(SAFE_IMAGE_BASES[3]) },
+  { pattern: /(wrap|tortilla|burrito|quesadilla|taco)/i, url: withImgParams(SAFE_IMAGE_BASES[4]) },
+  { pattern: /(soup|stew|broth|chili)/i, url: withImgParams(SAFE_IMAGE_BASES[5]) },
+  { pattern: /(sandwich|panini|roll)/i, url: withImgParams(SAFE_IMAGE_BASES[6]) },
+  { pattern: /(egg|omelet|omelette|frittata)/i, url: withImgParams(SAFE_IMAGE_BASES[7]) },
+  { pattern: /(oat|oatmeal|granola|parfait|overnight)/i, url: withImgParams(SAFE_IMAGE_BASES[8]) },
+  { pattern: /(pizza|flatbread)/i, url: withImgParams(SAFE_IMAGE_BASES[9]) },
+  { pattern: /(hummus|mezze|mediterranean|falafel)/i, url: withImgParams(SAFE_IMAGE_BASES[10]) },
+  { pattern: /(potato|fries|wedges|hash brown)/i, url: withImgParams(SAFE_IMAGE_BASES[11]) },
+  { pattern: /(stew|hearty|one-pot)/i, url: withImgParams(SAFE_IMAGE_BASES[12]) },
+  { pattern: /(pasta prep|mise en place)/i, url: withImgParams(SAFE_IMAGE_BASES[13]) },
+  { pattern: /(broth|ladle|bowl)/i, url: withImgParams(SAFE_IMAGE_BASES[14]) },
+  { pattern: /(avocado|toast)/i, url: withImgParams(SAFE_IMAGE_BASES[15]) },
+];
+
+const IMAGE_POOL = SAFE_IMAGE_BASES.map(withImgParams);
+
+const isSafeImage = (url?: string) => !!url && SAFE_IMAGE_BASES.some(base => url.startsWith(base));
+
+const pickImageForTitle = (title: string, recipeContext?: Partial<Recipe>) => {
+  const text = [title, ...(recipeContext?.tags || []), ...(recipeContext?.ingredients || []), recipeContext?.category]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  const matcher = TITLE_IMAGE_MATCHERS.find(entry => entry.pattern.test(text));
+  if (matcher) return matcher.url;
+
+  const hash = text.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
   return IMAGE_POOL[hash % IMAGE_POOL.length];
+};
+
+const ensureSafeImage = (proposedUrl: string | undefined, fallbackContext: Partial<Recipe>): string => {
+  if (isSafeImage(proposedUrl)) return proposedUrl as string;
+  return pickImageForTitle(fallbackContext.title || 'recipe', fallbackContext);
 };
 
 const normalizeIngredients = (ingredients: string[] = []) =>
@@ -759,6 +805,32 @@ const parseReadyMinutes = (ready?: string) => {
   return match ? parseInt(match[1], 10) : null;
 };
 
+const dedupeRecipesByTitle = (items: Recipe[]): Recipe[] => {
+  const byTitle = new Map<string, Recipe>();
+
+  items.forEach(candidate => {
+    const key = candidate.title.trim().toLowerCase();
+    const existing = byTitle.get(key);
+
+    if (!existing) {
+      byTitle.set(key, candidate);
+      return;
+    }
+
+    const detailScore = (recipe: Recipe) =>
+      recipe.instructions.join(' ').length + recipe.ingredients.join(',').length;
+
+    const isMoreDescriptive = detailScore(candidate) > detailScore(existing);
+    const hasBetterImage = !!candidate.imageUrl && !existing.imageUrl;
+
+    if (isMoreDescriptive || hasBetterImage) {
+      byTitle.set(key, candidate);
+    }
+  });
+
+  return Array.from(byTitle.values());
+};
+
 const STORAGE_KEY = 'pantry_community_recipes_v1';
 const STORAGE_TOMBSTONES_KEY = 'pantry_community_recipes_tombstones_v1';
 
@@ -790,7 +862,7 @@ const enrichRecipe = (recipe: Recipe): Recipe => {
 
   return {
     ...recipe,
-    imageUrl: recipe.imageUrl || pickImageForTitle(recipe.title),
+    imageUrl: ensureSafeImage(recipe.imageUrl, recipe),
     dietary,
     allergens,
   } satisfies Recipe;
@@ -845,7 +917,7 @@ const scrapedPantryCollection: Recipe[] = ((pantryRecipesCollection as PantryCol
   const appliances = inferAppliances(item.preparation);
   const totalTime = 20;
   const prepTime = Math.max(5, Math.round(totalTime * 0.4));
-  const cookTime = Math.max(5, totalTime - prepTime);
+  const cookTime = Math.max(5, totalTime - prepTime); // Adjusted cook time calculation
 
   return {
     id: 1000 + idx,
@@ -857,7 +929,10 @@ const scrapedPantryCollection: Recipe[] = ((pantryRecipesCollection as PantryCol
     servings: 2,
     difficulty: inferDifficulty(ingredients),
     tags: ['pantry-collection', ...appliances],
-    imageUrl: pickImageForTitle(item.recipe_name),
+    imageUrl: ensureSafeImage(
+      undefined,
+      { title: item.recipe_name, ingredients, tags: ['pantry-collection', ...appliances] }
+    ),
     dietary: inferDietary(ingredients),
     appliances,
     category: 'dinner',
@@ -884,7 +959,15 @@ const scrapedPantryBook: Recipe[] = ((pantryRecipeBook as PantryBookJson).pantry
       servings: recipe.serves || 2,
       difficulty: inferDifficulty(ingredients),
       tags: ['pantry-book', section.item || 'pantry'],
-      imageUrl: pickImageForTitle(recipe.name || `Recipe ${sectionIdx + 1}-${idx + 1}`),
+      imageUrl: ensureSafeImage(
+        undefined,
+        {
+          title: recipe.name || `Recipe ${sectionIdx + 1}-${idx + 1}`,
+          ingredients,
+          tags: ['pantry-book', section.item || 'pantry'],
+          category: section.item || 'pantry',
+        }
+      ),
       dietary: inferDietary(ingredients),
       appliances,
       category: 'dinner',
@@ -893,12 +976,12 @@ const scrapedPantryBook: Recipe[] = ((pantryRecipeBook as PantryBookJson).pantry
   });
 });
 
-const baseRecipes: Recipe[] = [
+const baseRecipes: Recipe[] = dedupeRecipesByTitle([
   ...scrapedPantryCollection,
   ...scrapedPantryBook,
   ...communitySeedRecipes,
   ...mockRecipes,
-].map(enrichRecipe);
+].map(enrichRecipe));
 
 export const recipes = baseRecipes;
 
@@ -933,7 +1016,15 @@ export function addCommunityRecipe(newRecipe: NewCommunityRecipe): Recipe {
     servings: newRecipe.servings || 2,
     difficulty: inferDifficulty(ingredients),
     tags: ['community', ...(newRecipe.dietaryTags || [])],
-    imageUrl: pickImageForTitle(newRecipe.title),
+    imageUrl: ensureSafeImage(
+      undefined,
+      {
+        title: newRecipe.title,
+        ingredients,
+        tags: ['community', ...(newRecipe.dietaryTags || [])],
+        category: 'dinner',
+      }
+    ),
     dietary: {
       ...inferredDietary,
       vegan: inferredDietary.vegan || dietaryFromTags('vegan'),
