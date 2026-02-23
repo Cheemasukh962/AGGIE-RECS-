@@ -147,7 +147,7 @@ export function Recipes() {
             servings: 2,
             difficulty: 'Easy',
             tags: ['Suggested', 'AI'],
-            imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80',
+            imageUrl: '',
             dietary: {
               vegan: false,
               vegetarian: false,

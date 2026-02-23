@@ -172,7 +172,7 @@ const mockRecipes: Recipe[] = [
     servings: 4,
     difficulty: 'Easy',
     tags: ['vegetarian', 'budget-friendly', 'protein-rich'],
-    imageUrl: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -199,7 +199,7 @@ const mockRecipes: Recipe[] = [
     servings: 3,
     difficulty: 'Easy',
     tags: ['vegetarian', 'quick', 'italian'],
-    imageUrl: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: false,
@@ -226,7 +226,7 @@ const mockRecipes: Recipe[] = [
     servings: 4,
     difficulty: 'Easy',
     tags: ['vegetarian', 'healthy', 'asian'],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -253,7 +253,7 @@ const mockRecipes: Recipe[] = [
     servings: 3,
     difficulty: 'Easy',
     tags: ['budget-friendly', 'quick', 'protein-rich'],
-    imageUrl: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: true,
@@ -280,7 +280,7 @@ const mockRecipes: Recipe[] = [
     servings: 4,
     difficulty: 'Easy',
     tags: ['vegetarian', 'mexican', 'quick'],
-    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: true,
@@ -307,7 +307,7 @@ const mockRecipes: Recipe[] = [
     servings: 4,
     difficulty: 'Easy',
     tags: ['vegetarian', 'soup', 'comfort-food'],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -334,7 +334,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['breakfast', 'healthy', 'quick'],
-    imageUrl: 'https://images.unsplash.com/photo-1517673776422-9b97b44b8b18?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -361,7 +361,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['quick', 'microwave-friendly', 'customizable'],
-    imageUrl: 'https://images.unsplash.com/photo-1518013431117-eb1465fa5752?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -388,7 +388,7 @@ const mockRecipes: Recipe[] = [
     servings: 6,
     difficulty: 'Medium',
     tags: ['vegetarian', 'indian', 'protein-rich'],
-    imageUrl: 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -415,7 +415,7 @@ const mockRecipes: Recipe[] = [
     servings: 2,
     difficulty: 'Easy',
     tags: ['vegetarian', 'quick', 'mexican'],
-    imageUrl: 'https://images.unsplash.com/photo-1618040996337-56904b7850b9?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: true,
@@ -442,7 +442,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['quick', 'budget-friendly', 'dorm-friendly'],
-    imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: false,
@@ -469,7 +469,7 @@ const mockRecipes: Recipe[] = [
     servings: 2,
     difficulty: 'Easy',
     tags: ['comfort-food', 'microwave-friendly', 'quick'],
-    imageUrl: 'https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: false,
@@ -496,7 +496,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['breakfast', 'no-cook', 'overnight', 'healthy'],
-    imageUrl: 'https://images.unsplash.com/photo-1517673776422-9b97b44b8b18?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: true,
@@ -523,7 +523,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['no-cook', 'quick', 'portable'],
-    imageUrl: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -550,7 +550,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['breakfast', 'no-cook', 'healthy', 'quick'],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800',
+    imageUrl: '',
     dietary: {
       vegan: false,
       glutenFree: false,
@@ -577,7 +577,7 @@ const mockRecipes: Recipe[] = [
     servings: 12,
     difficulty: 'Easy',
     tags: ['snack', 'no-cook', 'portable', 'energy-boost'],
-    imageUrl: 'https://images.unsplash.com/photo-1590080876192-4b93e3b0e8f0?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: true,
@@ -604,7 +604,7 @@ const mockRecipes: Recipe[] = [
     servings: 4,
     difficulty: 'Easy',
     tags: ['cold-dish', 'meal-prep', 'portable'],
-    imageUrl: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: false,
@@ -631,7 +631,7 @@ const mockRecipes: Recipe[] = [
     servings: 1,
     difficulty: 'Easy',
     tags: ['snack', 'no-cook', 'healthy', 'quick'],
-    imageUrl: 'https://images.unsplash.com/photo-1607532941433-304659e8198a?w=800',
+    imageUrl: '',
     dietary: {
       vegan: true,
       glutenFree: false,
@@ -670,16 +670,184 @@ type PantryBookJson = {
   };
 };
 
-const SAFE_IMAGE_BASES = [
+// ---------------------------------------------------------------------------
+// Recipe-specific image map: accurate, real food photographs for each recipe.
+// Keys are lowercase recipe titles. Images sourced from Unsplash with photos
+// that depict the actual dish described in the Pantry Recipe Book PDF.
+// ---------------------------------------------------------------------------
+const RECIPE_IMAGE_MAP: Record<string, string> = {
+  // --- Ready Pasta (Elbows) ---
+  'ready pasta (elbows) cobb salad':
+    'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&auto=format&fit=crop&q=80', // pasta cobb salad bowl
+  'pasta cobb salad':
+    'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&auto=format&fit=crop&q=80',
+  'super quick elbows with tomato basil sauce and cheese':
+    'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=900&auto=format&fit=crop&q=80', // pasta with tomato sauce
+  'pasta salad with tomato basil sauce and cheese':
+    'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=900&auto=format&fit=crop&q=80',
+
+  // --- Canned Sweet Corn ---
+  'esquite':
+    'https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=900&auto=format&fit=crop&q=80', // mexican corn in a cup (esquites)
+  'esquites':
+    'https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=900&auto=format&fit=crop&q=80',
+
+  // --- Canned Tuna ---
+  'tuna salad':
+    'https://images.unsplash.com/photo-1594834749740-74b3f6764be4?w=900&auto=format&fit=crop&q=80', // fresh tuna salad
+  'tuna salad sandwich':
+    'https://images.unsplash.com/photo-1594834749740-74b3f6764be4?w=900&auto=format&fit=crop&q=80',
+  'tuna noodle casserole':
+    'https://images.unsplash.com/photo-1619895092538-128341789043?w=900&auto=format&fit=crop&q=80', // tuna noodle casserole
+  'tuna melts on pepper':
+    'https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=900&auto=format&fit=crop&q=80', // stuffed peppers with melted cheese
+  'arugula chickpea tuna salad':
+    'https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=900&auto=format&fit=crop&q=80', // arugula chickpea salad bowl
+
+  // --- Hot Pepper ---
+  'spicy rice casserole':
+    'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=900&auto=format&fit=crop&q=80', // fried rice with vegetables
+  'chicken panang curry':
+    'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=900&auto=format&fit=crop&q=80', // Thai panang curry
+
+  // --- Poblano Peppers ---
+  'chili stuffed poblano peppers':
+    'https://images.unsplash.com/photo-1601000938259-9e92002320b2?w=900&auto=format&fit=crop&q=80', // stuffed poblano peppers
+
+  // --- Turnips ---
+  'leek, turnip, and rice soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=900&auto=format&fit=crop&q=80', // vegetable soup bowl
+  'leek turnip and rice soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=900&auto=format&fit=crop&q=80',
+
+  // --- Persimmon ---
+  'vegetable hand rolls (temaki)':
+    'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=900&auto=format&fit=crop&q=80', // sushi hand rolls
+  'vegetable hand rolls':
+    'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=900&auto=format&fit=crop&q=80',
+
+  // --- Eggplant ---
+  'eggplant curry':
+    'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=900&auto=format&fit=crop&q=80', // eggplant curry dish
+
+  // --- Pomegranate ---
+  'pear and pomegranate salad':
+    'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=900&auto=format&fit=crop&q=80', // fresh salad with fruit
+
+  // --- Garlic ---
+  'garlic clove spaghetti':
+    'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=900&auto=format&fit=crop&q=80', // spaghetti aglio e olio
+  'orzo with garlicky spinach':
+    'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=900&auto=format&fit=crop&q=80', // orzo pasta dish
+  'udon with chicken and garlicky peanut dressing':
+    'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=900&auto=format&fit=crop&q=80', // udon noodle bowl
+
+  // --- Tomatoes ---
+  'roasted tomato avocado toast':
+    'https://images.unsplash.com/photo-1604908177520-4028ea5667db?w=900&auto=format&fit=crop&q=80', // avocado toast with tomato
+
+  // --- Radishes ---
+  'corn salad with radishes, jalapeno, and lime':
+    'https://images.unsplash.com/photo-1534938665420-4ca7f9a5ea24?w=900&auto=format&fit=crop&q=80', // corn salad
+  'corn salad with radishes jalapeno and lime':
+    'https://images.unsplash.com/photo-1534938665420-4ca7f9a5ea24?w=900&auto=format&fit=crop&q=80',
+
+  // --- Winter Squash ---
+  'butternut squash soup':
+    'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=900&auto=format&fit=crop&q=80', // butternut squash soup
+  'butternut squash basmati rice':
+    'https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=900&auto=format&fit=crop&q=80', // squash rice pilaf
+
+  // --- Sweet Potato ---
+  'chicken, sweet potato, and black bean skillet':
+    'https://images.unsplash.com/photo-1543339308-d595c4f5bef7?w=900&auto=format&fit=crop&q=80', // chicken skillet with vegetables
+  'chicken sweet potato and black bean skillet':
+    'https://images.unsplash.com/photo-1543339308-d595c4f5bef7?w=900&auto=format&fit=crop&q=80',
+
+  // --- Lima Beans ---
+  'lima bean soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=900&auto=format&fit=crop&q=80', // hearty bean soup
+
+  // --- Okra ---
+  'okra and chickpeas in fresh tomato sauce':
+    'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=900&auto=format&fit=crop&q=80', // stewed vegetables in tomato sauce
+
+  // --- Collard Greens ---
+  'sauteed collard greens with mushrooms':
+    'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=900&auto=format&fit=crop&q=80', // sauteed greens dish
+  'sautéed collard greens with mushrooms':
+    'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=900&auto=format&fit=crop&q=80',
+
+  // --- Additional collection recipes ---
+  'creamy tomato basil soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=900&auto=format&fit=crop&q=80', // tomato soup
+  'cilantro rice':
+    'https://images.unsplash.com/photo-1516684732162-798a0062be99?w=900&auto=format&fit=crop&q=80', // cilantro lime rice
+  'moringa leaves stir-fry (thoran)':
+    'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=900&auto=format&fit=crop&q=80', // stir-fried greens
+  'moringa leaves stir-fry':
+    'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=900&auto=format&fit=crop&q=80',
+
+  // --- Mock / seed recipes ---
+  'simple rice & beans bowl':
+    'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=900&auto=format&fit=crop&q=80', // rice and beans bowl
+  'quick pasta marinara':
+    'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=900&auto=format&fit=crop&q=80', // pasta marinara
+  'vegetable stir-fry':
+    'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=900&auto=format&fit=crop&q=80', // vegetable stir fry
+  'egg fried rice':
+    'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=900&auto=format&fit=crop&q=80', // egg fried rice
+  'black bean tacos':
+    'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=900&auto=format&fit=crop&q=80', // black bean tacos
+  'tomato & basil soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=900&auto=format&fit=crop&q=80', // tomato basil soup
+  'peanut butter banana oatmeal':
+    'https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=900&auto=format&fit=crop&q=80', // oatmeal with banana and peanut butter
+  'microwave baked potato':
+    'https://images.unsplash.com/photo-1518013431117-eb1465fa5752?w=900&auto=format&fit=crop&q=80', // baked potato
+  'lentil curry':
+    'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=900&auto=format&fit=crop&q=80', // lentil curry
+  'veggie quesadilla':
+    'https://images.unsplash.com/photo-1618040996337-56904b7850b9?w=900&auto=format&fit=crop&q=80', // quesadilla
+  'instant ramen upgrade':
+    'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=900&auto=format&fit=crop&q=80', // ramen bowl
+  'microwave mac & cheese':
+    'https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=900&auto=format&fit=crop&q=80', // mac and cheese
+  'apple cinnamon oats (no cook)':
+    'https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=900&auto=format&fit=crop&q=80', // overnight oats with apple
+  'bean & veggie wrap':
+    'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=900&auto=format&fit=crop&q=80', // veggie wrap
+  'fruit & yogurt parfait':
+    'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=900&auto=format&fit=crop&q=80', // yogurt parfait
+  'pb&j energy bites':
+    'https://images.unsplash.com/photo-1590080876192-4b93e3b0e8f0?w=900&auto=format&fit=crop&q=80', // energy bites
+  'veggie pasta salad':
+    'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&auto=format&fit=crop&q=80', // pasta salad
+  'hummus & veggie snack plate':
+    'https://images.unsplash.com/photo-1607532941433-304659e8198a?w=900&auto=format&fit=crop&q=80', // hummus plate
+
+  // --- Community seed recipes ---
+  'no-cook chickpea salad wrap':
+    'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=900&auto=format&fit=crop&q=80', // chickpea wrap
+  'microwave mug omelette':
+    'https://images.unsplash.com/photo-1506089676908-3592f7389d4d?w=900&auto=format&fit=crop&q=80', // egg omelette
+  'one-pot tomato lentil pasta':
+    'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=900&auto=format&fit=crop&q=80', // lentil pasta
+  'peanut butter banana overnight oats':
+    'https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=900&auto=format&fit=crop&q=80', // overnight oats
+};
+
+// Fallback images organized by food category for recipes not in the explicit map
+const CATEGORY_IMAGE_BASES = [
   'https://images.unsplash.com/photo-1504674900247-0877df9cc836', // rice/beans bowl
   'https://images.unsplash.com/photo-1478145046317-39f10e56b5e9', // curry bowl
   'https://images.unsplash.com/photo-1473093295043-cdd812d0e601', // pasta
-  'https://images.unsplash.com/photo-1523986371872-9d3ba2e2f5ab', // salad
-  'https://images.unsplash.com/photo-1552332386-f8dd00dc2f85', // tacos/quesadilla
+  'https://images.unsplash.com/photo-1512621776951-a57141f2eefd', // salad
+  'https://images.unsplash.com/photo-1565299585323-38d6b0865b47', // tacos/quesadilla
   'https://images.unsplash.com/photo-1547592166-23ac45744acd', // soup
   'https://images.unsplash.com/photo-1528735602780-2552fd46c7af', // sandwich
   'https://images.unsplash.com/photo-1506089676908-3592f7389d4d', // egg dish
-  'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea', // oats
+  'https://images.unsplash.com/photo-1517673400267-0251440c45dc', // oats
   'https://images.unsplash.com/photo-1513104890138-7c749659a591', // pizza
   'https://images.unsplash.com/photo-1490645935967-10de6ba17061', // hummus/mezze
   'https://images.unsplash.com/photo-1518013431117-eb1465fa5752', // potato
@@ -689,32 +857,45 @@ const SAFE_IMAGE_BASES = [
   'https://images.unsplash.com/photo-1604908177520-4028ea5667db', // avocado toast
 ];
 
-const withImgParams = (base: string) => `${base}?w=900&auto=format&fit=crop&q=80&sat=-6`;
+const withImgParams = (base: string) => `${base}?w=900&auto=format&fit=crop&q=80`;
 
 const TITLE_IMAGE_MATCHERS: { pattern: RegExp; url: string }[] = [
-  { pattern: /(rice[^a-z]|rice\b).*bean|bean[^a-z]|beans\b|bowl|grain bowl/i, url: withImgParams(SAFE_IMAGE_BASES[0]) },
-  { pattern: /(curry|dal|lentil|chickpea)/i, url: withImgParams(SAFE_IMAGE_BASES[1]) },
-  { pattern: /(pasta|spaghetti|penne|mac|noodle|ramen)/i, url: withImgParams(SAFE_IMAGE_BASES[2]) },
-  { pattern: /(salad|greens)/i, url: withImgParams(SAFE_IMAGE_BASES[3]) },
-  { pattern: /(wrap|tortilla|burrito|quesadilla|taco)/i, url: withImgParams(SAFE_IMAGE_BASES[4]) },
-  { pattern: /(soup|stew|broth|chili)/i, url: withImgParams(SAFE_IMAGE_BASES[5]) },
-  { pattern: /(sandwich|panini|roll)/i, url: withImgParams(SAFE_IMAGE_BASES[6]) },
-  { pattern: /(egg|omelet|omelette|frittata)/i, url: withImgParams(SAFE_IMAGE_BASES[7]) },
-  { pattern: /(oat|oatmeal|granola|parfait|overnight)/i, url: withImgParams(SAFE_IMAGE_BASES[8]) },
-  { pattern: /(pizza|flatbread)/i, url: withImgParams(SAFE_IMAGE_BASES[9]) },
-  { pattern: /(hummus|mezze|mediterranean|falafel)/i, url: withImgParams(SAFE_IMAGE_BASES[10]) },
-  { pattern: /(potato|fries|wedges|hash brown)/i, url: withImgParams(SAFE_IMAGE_BASES[11]) },
-  { pattern: /(stew|hearty|one-pot)/i, url: withImgParams(SAFE_IMAGE_BASES[12]) },
-  { pattern: /(pasta prep|mise en place)/i, url: withImgParams(SAFE_IMAGE_BASES[13]) },
-  { pattern: /(broth|ladle|bowl)/i, url: withImgParams(SAFE_IMAGE_BASES[14]) },
-  { pattern: /(avocado|toast)/i, url: withImgParams(SAFE_IMAGE_BASES[15]) },
+  { pattern: /(rice[^a-z]|rice\b).*bean|bean[^a-z]|beans\b|bowl|grain bowl/i, url: withImgParams(CATEGORY_IMAGE_BASES[0]) },
+  { pattern: /(curry|dal|lentil|chickpea)/i, url: withImgParams(CATEGORY_IMAGE_BASES[1]) },
+  { pattern: /(pasta|spaghetti|penne|mac|noodle|ramen)/i, url: withImgParams(CATEGORY_IMAGE_BASES[2]) },
+  { pattern: /(salad|greens)/i, url: withImgParams(CATEGORY_IMAGE_BASES[3]) },
+  { pattern: /(wrap|tortilla|burrito|quesadilla|taco)/i, url: withImgParams(CATEGORY_IMAGE_BASES[4]) },
+  { pattern: /(soup|stew|broth|chili)/i, url: withImgParams(CATEGORY_IMAGE_BASES[5]) },
+  { pattern: /(sandwich|panini|roll)/i, url: withImgParams(CATEGORY_IMAGE_BASES[6]) },
+  { pattern: /(egg|omelet|omelette|frittata)/i, url: withImgParams(CATEGORY_IMAGE_BASES[7]) },
+  { pattern: /(oat|oatmeal|granola|parfait|overnight)/i, url: withImgParams(CATEGORY_IMAGE_BASES[8]) },
+  { pattern: /(pizza|flatbread)/i, url: withImgParams(CATEGORY_IMAGE_BASES[9]) },
+  { pattern: /(hummus|mezze|mediterranean|falafel)/i, url: withImgParams(CATEGORY_IMAGE_BASES[10]) },
+  { pattern: /(potato|fries|wedges|hash brown)/i, url: withImgParams(CATEGORY_IMAGE_BASES[11]) },
+  { pattern: /(stew|hearty|one-pot)/i, url: withImgParams(CATEGORY_IMAGE_BASES[12]) },
+  { pattern: /(pasta prep|mise en place)/i, url: withImgParams(CATEGORY_IMAGE_BASES[13]) },
+  { pattern: /(broth|ladle|bowl)/i, url: withImgParams(CATEGORY_IMAGE_BASES[14]) },
+  { pattern: /(avocado|toast)/i, url: withImgParams(CATEGORY_IMAGE_BASES[15]) },
 ];
 
-const IMAGE_POOL = SAFE_IMAGE_BASES.map(withImgParams);
+const IMAGE_POOL = CATEGORY_IMAGE_BASES.map(withImgParams);
 
-const isSafeImage = (url?: string) => !!url && SAFE_IMAGE_BASES.some(base => url.startsWith(base));
-
+// Check the explicit recipe image map first (exact match), then fall back to category matchers
 const pickImageForTitle = (title: string, recipeContext?: Partial<Recipe>) => {
+  // 1. Try exact match from the curated recipe image map
+  const normalizedTitle = title.trim().toLowerCase();
+  if (RECIPE_IMAGE_MAP[normalizedTitle]) {
+    return RECIPE_IMAGE_MAP[normalizedTitle];
+  }
+
+  // 2. Try partial matching against map keys (handles slight naming variations)
+  for (const [key, url] of Object.entries(RECIPE_IMAGE_MAP)) {
+    if (normalizedTitle.includes(key) || key.includes(normalizedTitle)) {
+      return url;
+    }
+  }
+
+  // 3. Fall back to category-based regex matching
   const text = [title, ...(recipeContext?.tags || []), ...(recipeContext?.ingredients || []), recipeContext?.category]
     .filter(Boolean)
     .join(' ')
@@ -727,8 +908,8 @@ const pickImageForTitle = (title: string, recipeContext?: Partial<Recipe>) => {
   return IMAGE_POOL[hash % IMAGE_POOL.length];
 };
 
-const ensureSafeImage = (proposedUrl: string | undefined, fallbackContext: Partial<Recipe>): string => {
-  if (isSafeImage(proposedUrl)) return proposedUrl as string;
+const ensureSafeImage = (_proposedUrl: string | undefined, fallbackContext: Partial<Recipe>): string => {
+  // Always use our curated image mapping to ensure accurate food photos
   return pickImageForTitle(fallbackContext.title || 'recipe', fallbackContext);
 };
 
