@@ -6,6 +6,7 @@ SacHack 2026V2 code bundle. Original design: https://www.figma.com/design/YhC7t2
 - Vite + React (TypeScript)
 - Tailwind CSS
 - Radix UI + custom components
+- Python + Flask
 
 ## Scripts
 - Install deps: `npm install`
